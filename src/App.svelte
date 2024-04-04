@@ -1,5 +1,6 @@
 <script lang="ts">
   import Greet from './lib/Greet.svelte'
+  import ManageBluetooth from './lib/ManageBluetooth.svelte'
 </script>
 
 <main class="container">
@@ -23,6 +24,10 @@
 
   <div class="row">
     <Greet />
+  </div>
+
+  <div class="row">
+    <ManageBluetooth/>
   </div>
 
 
